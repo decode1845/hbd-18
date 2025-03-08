@@ -1,0 +1,52 @@
+body {
+    background-color: #f0e5e5;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    color: #e63946;
+    font-size: 2.5em;
+}
+
+.love-note {
+    color: #6a0572;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #f1faee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a8dadc;
+}
+
+.hidden {
+    display: none;
+}
+
+#secretMessage {
+    margin-top: 20px;
+    color: #457b9d;
+    font-size: 1.2em;
+}
